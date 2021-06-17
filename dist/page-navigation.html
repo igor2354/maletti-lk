@@ -418,7 +418,7 @@
 
             <div class="b-header__navigation site-navigation">
                 <div class="site-navigation__title">
-                    <h1 class="page-title" id="pagetitle">Адреса доставки</h1>
+                    <h1 class="page-title" id="pagetitle">Навигация</h1>
                 </div>
                 <div class="site-navigation__breadcrumbs" id="navigation">
                     <div class="bx-breadcrumb" itemprop="http://schema.org/breadcrumb" itemscope=""
@@ -446,7 +446,7 @@
                             <circle cx="1" cy="1" r="1" fill="white"></circle>
                         </svg>&nbsp;
                         <div class="bx-breadcrumb-item">
-                            <span class="bx-breadcrumb-item-text">Адреса доставки</span>
+                            <span class="bx-breadcrumb-item-text">Навигация</span>
                         </div>
                     </div>
                 </div>
@@ -458,138 +458,41 @@
 
 </header>
 
-<section class="profile">
+<div class="page-navigation">
     <div class="container">
-    </div>
+        <div class="page-navigation-name">Страницы</div>
 
-    <div class="profile__link profile-links">
-        <div class="container">
-            <div class="profile-links__list">
-                <div class="profile-links__item"><a class="profile-links__link current" href="#">Мои заказы</a></div>
-                <div class="profile-links__item"><a class="profile-links__link" href="#">Персональные данные</a></div>
-                <div class="profile-links__item"><a class="profile-links__link" href="#">Адреса доставки</a></div>
-                <div class="profile-links__item"><a class="profile-links__link" href="#">Бонусная система</a></div>
-                <div class="profile-links__item"><a class="profile-links__link" href="#">Моя корзина</a></div>
-            </div>
+        <div class="page-navigation-list">
+            <a href="./index.html" class="page-navigation-item">Личный кабинет</a>
+            <a href="./page-profile-order-cancel.html" class="page-navigation-item">Отмена заказа</a>
+            <a href="./page-profile-order-item-individual-pay.html" class="page-navigation-item">Подробная информация о
+                заказе с оплатой</a>
+            <a href="./page-profile-order-item-individual.html" class="page-navigation-item">Подробная информация о
+                заказе</a>
+            <a href="./page-profile-order.html" class="page-navigation-item">Страница отмены заказа</a>
+            <a href="./page-profile-user-personal-data.html" class="page-navigation-item">Адреса доставок</a>
+            <a href="./page-profile-user.html" class="page-navigation-item">Персональные данные</a>
+
         </div>
     </div>
+</div>
 
-    <div class="profile__user user-profile">
-        <div class="container">
-            <div class="user-profile__wrap">
-                <form action="#" class="user-profile__form form-user-profile">
+<style>
+    .page-navigation {
+        padding: 50px 0;
+    }
 
-                    <div class="form-user-profile__personal-data js-from-wrap-input --individual">
-                        <div class="form-user-profile__title">Адрес доставки</div>
-                        <div class="form-user-profile__wrap">
+    .page-navigation-name {
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 50px;
+    }
 
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Индекс</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="111111">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Страна</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="Россия">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Город</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="Москва">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Улица, дом, строение</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="tel" placeholder="Корнилаевна, 15а">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Название салона</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="tel" placeholder="Салон №1">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="form-user-profile__personal-data js-from-wrap-input --individual">
-                        <div class="form-user-profile__title">Контактное лицо</div>
-                        <div class="form-user-profile__wrap">
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">ФИО</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="Иванов Иван Иванович">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Номер телефона</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="tel" placeholder="+7 (000) 000-00-00">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">E-Mail</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="info@mail.ru">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Должность</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="Ведущий менеджер по закупу">
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="form-user-profile__personal-data js-from-wrap-input --individual">
-                        <div class="form-user-profile__title">Реквизиты компании</div>
-                        <div class="form-user-profile__wrap">
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">Название организации</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="text" placeholder="Салон №1">
-                                </div>
-                            </div>
-
-                            <div class="form-user-profile__group-input">
-                                <div class="form-user-profile__input-text">ИНН</div>
-                                <div class="form-user-profile__wrap-input">
-                                    <input type="tel" placeholder="1234567899">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <div class="form-user-profile__button">
-                        <button class="button button-secondary o-w-btn o-w-btn-sm o-w-click-button button-big"
-                            type="submit">Добавить адрес доставки</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-</section>
+    .page-navigation-list a {
+        display: block;
+        margin-bottom: 15px;
+    }
+</style>
 
 <!-- FOOTER -->
 
