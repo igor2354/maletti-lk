@@ -530,6 +530,7 @@ input.button-secondary:hover {
   padding: 40px 0; }
 
 .profile-tabs__button {
+  cursor: pointer;
   margin-right: 150px;
   display: block;
   font-weight: 300;
@@ -575,10 +576,9 @@ input.button-secondary:hover {
   margin-bottom: 60px; }
 
 .order-current {
-  /* border: 1px solid #ada090; */
+  border: 1px solid #ada090;
   margin-bottom: 20px;
-  padding: 35px 45px;
-  background: #fff; }
+  padding: 35px 45px; }
 
 .order-current:last-child {
   margin-bottom: 0; }
@@ -1586,6 +1586,10 @@ input.button-secondary:hover {
     .item-product-basket__size-list span:last-child {
       margin-right: 0; }
 
+.card-order__item.order-current {
+  border: none;
+  background: #fff; }
+
 .user-profile__wrap {
   padding: 2.8% 0 5.5% 0; }
 
@@ -1657,7 +1661,7 @@ input.button-secondary:hover {
 .form-user-profile__wrap-input input {
   width: 100%;
   padding: 25px 35px;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #ada090;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
