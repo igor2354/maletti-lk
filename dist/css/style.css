@@ -586,7 +586,7 @@ input.button-secondary:hover {
 .order-current__wrap {
   display: grid;
   grid-template-columns: 0.7fr 0.4fr 0.5fr 0.4fr 0.25fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
@@ -741,6 +741,7 @@ input.button-secondary:hover {
   transition: all 0.3s ease; }
 
 .order-cancel__hint {
+  display: none;
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -880,7 +881,7 @@ input.button-secondary:hover {
 .card-order__back-lsit-button::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   -webkit-transform: translate(0, -50%);
       -ms-transform: translate(0, -50%);
@@ -894,6 +895,10 @@ input.button-secondary:hover {
   font-size: 14px;
   line-height: 96.69%;
   color: #000000; }
+
+.card-order__back-lsit-button a:hover,
+.card-order__back-lsit-button a:active {
+  color: #ada090; }
 
 .card-order-cancel {
   padding-bottom: 150px; }
@@ -1589,6 +1594,16 @@ input.button-secondary:hover {
 .card-order__item.order-current {
   border: none;
   background: #fff; }
+
+.card-order__back-lsit .card-order__back-lsit-button,
+.card-order__back-lsit .order-current__cancel,
+.card-order__back-lsit .order-current__repeat {
+  margin-bottom: 1em; }
+
+.order-current__group-button-list .order-current__cancel,
+.order-current__group-button-list .order-current__repeat,
+.order-current__group-button-list .order-current__watch {
+  margin-bottom: 1em; }
 
 .user-profile__wrap {
   padding: 2.8% 0 5.5% 0; }
